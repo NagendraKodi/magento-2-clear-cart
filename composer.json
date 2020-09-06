@@ -1,0 +1,35 @@
+{
+  "name": "nagendrakodi21/magento-2-clear-cart",
+  "description": "Magento 2 Clear Cart extension",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "keywords": [
+    "magento 2",
+    "nagendrakodi21",
+    "clear art"
+  ],
+  "minimum-stability": "alpha",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/nagendrakodi21/magento-2-clear-cart"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Nagendra Kodi",
+      "email": "nagendrakodi21@gmail.com",
+      "homepage": "https://nagendrakodi21.github.io/",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "NagendraKodi21\\ClearCart\\": ""
+    }
+  }
+}
