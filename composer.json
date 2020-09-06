@@ -8,11 +8,12 @@
     "nagendrakodi21",
     "clear art"
   ],
+  "license": "MIT",
   "minimum-stability": "alpha",
   "prefer-stable": true,
   "repositories": [
     {
-      "type": "vcs",
+      "type": "composer",
       "url": "https://github.com/nagendrakodi21/magento-2-clear-cart"
     }
   ],
